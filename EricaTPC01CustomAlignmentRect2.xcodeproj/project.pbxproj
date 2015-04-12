@@ -13,6 +13,7 @@
 		C9DC75E41AD9489D00EEFED9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC75E31AD9489D00EEFED9 /* Images.xcassets */; };
 		C9DC75E71AD9489D00EEFED9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9DC75E51AD9489D00EEFED9 /* LaunchScreen.xib */; };
 		C9DC75F31AD9489D00EEFED9 /* EricaTPC01CustomAlignmentRect2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC75F21AD9489D00EEFED9 /* EricaTPC01CustomAlignmentRect2Tests.swift */; };
+		C9DC75FD1AD948B400EEFED9 /* Test_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC75FC1AD948B400EEFED9 /* Test_View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C9DC75EC1AD9489D00EEFED9 /* EricaTPC01CustomAlignmentRect2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricaTPC01CustomAlignmentRect2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DC75F11AD9489D00EEFED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DC75F21AD9489D00EEFED9 /* EricaTPC01CustomAlignmentRect2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EricaTPC01CustomAlignmentRect2Tests.swift; sourceTree = "<group>"; };
+		C9DC75FC1AD948B400EEFED9 /* Test_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test_View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C9DC75E31AD9489D00EEFED9 /* Images.xcassets */,
 				C9DC75E51AD9489D00EEFED9 /* LaunchScreen.xib */,
 				C9DC75DA1AD9489D00EEFED9 /* Supporting Files */,
+				C9DC75FC1AD948B400EEFED9 /* Test_View.swift */,
 			);
 			path = EricaTPC01CustomAlignmentRect2;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DC75DF1AD9489D00EEFED9 /* ViewController.swift in Sources */,
+				C9DC75FD1AD948B400EEFED9 /* Test_View.swift in Sources */,
 				C9DC75DD1AD9489D00EEFED9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EricaTPC01CustomAlignmentRect2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D USE_ALIGNMENT_RECTS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -354,6 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EricaTPC01CustomAlignmentRect2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D USE_ALIGNMENT_RECTS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
